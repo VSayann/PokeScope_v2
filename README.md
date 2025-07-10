@@ -1,16 +1,11 @@
 # PokeScope - Votre Pokédex Personnel
 
-![PokeScope Banner](docs/assets/banner.png)
-
 <p align="center">
   <a href="https://pokeapi.co/">
     <img src="https://img.shields.io/badge/Données%20fournies%20par-PokéAPI-f95454?logo=pokemon&logoColor=white" alt="PokéAPI Badge"/>
   </a>
   <a href="https://github.com/VSayann/PokeScope_v2/actions">
     <img src="https://github.com/VSayann/PokeScope_v2/workflows/CI/badge.svg" alt="Statut du build"/>
-  </a>
-  <a href="LICENSE">
-    <img src="https://img.shields.io/github/license/VSayann/PokeScope_v2" alt="Licence MIT"/>
   </a>
   <a href="https://github.com/VSayann/PokeScope_v2">
     <img src="https://img.shields.io/github/stars/VSayann/PokeScope_v2?style=social" alt="Étoiles GitHub"/>
