@@ -1,0 +1,164 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.*
+
+# Build output
+/build
+/dist
+/.next
+/out
+/.svelte-kit
+/.vercel
+/.netlify
+
+# Cache
+.cache/
+.temp/
+.tmp/
+.turbo/
+.vercel/
+.parcel-cache/
+.rts2_*
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Testing
+/coverage
+.nyc_output
+/junit.xml
+/test-results/
+/playwright-report/
+/vitest/
+*.spec.ts.snap
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Docker
+.docker
+*.local
+
+# Misc
+*.local
+.cache
+.vercel
+.netlify
+.svelte-kit
+.astro
+
+# Local development
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+.next
+out
+
+# Database
+*.sqlite
+*.sql
+*.sqlite3
+
+# IDE specific files
+.idea/
+*.sublime-*
+
+# Vim swap files
+*.swp
+*.swo
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux specific
+*~
+
+# Visual Studio Code specific
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# pnpm
+.pnpm-store/
+
+# Turbo
+.turbo/
+
+# SvelteKit
+.svelte-kit/
+
+# Vercel
+.vercel/
+
+# Netlify
+.netlify/
+
+# Production
+build
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local env files
+.env*.local
+
+# Misc
+.vercel
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

@@ -1,0 +1,12 @@
+CREATE TABLE IF NOT EXISTS users (
+  id SERIAL PRIMARY KEY,
+  username TEXT UNIQUE NOT NULL,
+  email TEXT UNIQUE NOT NULL,
+  password_hash TEXT NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS favorites (
+  user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  pokemon_id INTEGER NOT NULL,
+  PRIMARY KEY (user_id, pokemon_id)
+);
